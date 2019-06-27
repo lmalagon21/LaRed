@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".cargar_puntos">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Eres parte de LaRed"
+            android:id="@+id/estas_enred"
+            android:textColor="#009688" android:textColorHighlight="#E91E63"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="16dp" android:layout_marginLeft="16dp" android:layout_marginStart="16dp"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:srcCompat="@tools:sample/avatars[12]"
+            android:id="@+id/image_negocio"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginTop="44dp"
+            android:layout_marginLeft="124dp" android:layout_marginStart="124dp"
+            app:layout_constraintTop_toBottomOf="@+id/estas_enred"/>
+    <TextView
+            android:text="Vamos a cargarle puntos a tus clientes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/label_cargar_puntos" android:textColor="#009688"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginTop="83dp"
+            app:layout_constraintTop_toBottomOf="@+id/image_negocio" app:layout_constraintEnd_toEndOf="parent"/>
+    <TextView
+            android:text="Número Móvil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/puntos_movil" android:textColor="#009688"
+            app:layout_constraintStart_toStartOf="@+id/movil_a_cargar"
+            app:layout_constraintEnd_toEndOf="@+id/movil_a_cargar"
+            app:layout_constraintBottom_toTopOf="@+id/movil_a_cargar"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:ems="10"
+            android:id="@+id/movil_a_cargar"
+            android:textColor="#3F51B5" android:gravity="center"
+            android:maxLength="10"
+            android:layout_marginTop="67dp" app:layout_constraintTop_toBottomOf="@+id/label_cargar_puntos"
+            android:layout_marginEnd="16dp" android:layout_marginRight="16dp"
+            app:layout_constraintEnd_toEndOf="@+id/label_cargar_puntos"/>
+    <TextView
+            android:text="Valor de la Compra"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:id="@+id/label_valor_carga" android:textColor="#009688"
+            android:layout_marginTop="37dp"
+            app:layout_constraintTop_toBottomOf="@+id/movil_a_cargar" android:layout_marginBottom="43dp"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="@+id/valor_carga"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned"
+            android:ems="10"
+            android:id="@+id/valor_carga"
+            android:textColor="#F44336"
+            android:gravity="center"
+            android:layout_marginTop="59dp" app:layout_constraintTop_toBottomOf="@+id/movil_a_cargar"
+            android:layout_marginEnd="1dp" android:layout_marginRight="1dp"
+            app:layout_constraintEnd_toEndOf="@+id/movil_a_cargar"/>
+    <Button
+            android:text="Cargar puntos"
+            android:layout_width="123dp"
+            android:layout_height="46dp"
+            android:id="@+id/cargar_puntos" android:background="#FBFBFB"
+            android:textColor="#2196F3"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginBottom="18dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
