@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">LaRed</string>
+    <string name="cliente">CLIENTE</string>
+    <string name="negocio">Negocio</string>
+    <string name="eres_nuevo_en_la_red">Eres nuevo en la Red?</string>
+    <string name="donde_tus_compras_se_convierten_en_dinero">Donde tus compras se convierten en Dinero $$$</string>
+    <string name="vamos_a_lared">Vamos a LaRed</string>
+    <string name="bienvenido_a_lared">Bienvenido a LaRed</string>
+    <string name="n_mero_m_vil">Número Móvil</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="title_activity_registro_negocio">registro_negocio</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="cu_ntanos_acerca_de_la_ubicaci_n_de_tu_negocio">Cuéntanos acerca de la ubicación de tu Negocio
+    </string>
+    <string name="ciudad">Ciudad</string>
+    <string name="pa_s">País</string>
+    <string name="label_barrio">Barrio</string>
+    <string name="label_direcci_n">Dirección</string>
+    <string name="es_cliente">Cliente</string>
+    <string name="es_negocio">Negocio</string>
+    <string name="registrar">Registrar</string>
+    <string name="barrio">Barrio</string>
+    <string name="direcci_n">Dirección</string>
+    <string name="cargar_foto_de_tu_negocio">Cargar Foto de tu Negocio</string>
+    <string name="olvidaste_tu_contrase_a">Olvidaste tu contraseña?</string>
+    <string name="registrate_en_lared">Registrate en LaRed</string>
+    <string name="correo_electr_nico_cli">Correo Electrónico</string>
+    <string name="contrase_a_cli">Contraseña</string>
+    <string name="n_mero_de_documento_cli">Número de Documento</string>
+    <string name="continuar_regcli1">Continuar</string>
+</resources>
